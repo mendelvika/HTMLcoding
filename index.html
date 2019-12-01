@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="logo"></div>
+        <ul class="menu">
+          <li>Обменять</li>
+          <li>Резервы</li>
+          <li>Как мы работаем</li>
+          <li>FAQ</li>
+          <li>Документы</li>
+        </ul>
+        <button class="personal">Личный кабинет</button>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="content">
+        <div class="text-content">
+          <h1>Меняйте валюты как вам удобно!</h1>
+          <p>
+            Просто выберите интересующую вас валюту из перечня доступых, и мы
+            обменяем ее по самому выгодному курсу.
+          </p>
+          <div class="trustpilot"></div>
+        </div>
+        <div class="card-content">
+          <h4>Выберите одно из направлений обмена</h4>
+          <div class="exchange-blocks">
+            <div class="visa-block">
+              <div class="bitcoin"></div>
+              <div class="to"></div>
+              <div class="visa"></div>
+            </div>
+            <div class="etherium-block">
+              <div class="bitcoin"></div>
+              <div class="to"></div>
+              <div class="etherium"></div>
+            </div>
+            <div class="advcash-block">
+              <div class="bitcoin"></div>
+              <div class="to"></div>
+              <div class="advcash"></div>
+            </div>
+          </div>
+          <div class="send-money">
+            <label for="input"
+              >Вы отправляете
+              <input type="text" value="1000" />
+            </label>
+            <div class="select-send">
+              <span></span>
+              <p>Visa/Mastercard UAH</p>
+            </div>
+            <div class="dropdown" style="display: none;">
+              <p>Visa/Mastercard UAH1</p>
+              <p>Visa/Mastercard UAH2</p>
+              <p>Visa/Mastercard UAH3</p>
+            </div>
+          </div>
+         
+          <p class="commission">Комиссия за обмен <span>23 UAH</span></p>
+          <div class="receive-money">
+            <label for="input"
+              >Вы получите
+              <input type="text" value="1000" />
+            </label>
+            <div class="select-receive">
+              <span></span>
+              <p>Etherium ETH</p>
+            </div>
+      
+          </div>
+          <label class="checkbox-container">
+            <input type="checkbox" required/>
+            <span class="style-checkbox"></span>
+          </label>
+
+          <p class="agreement">Я согласен с правилами сервиса</p>
+          <button class="exchange">Обменять</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
